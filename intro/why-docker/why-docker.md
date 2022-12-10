@@ -14,7 +14,9 @@ Docker *needed* to exist because the old ways were full of friction and complexi
 
 ![90s and 2000s: few servers with many apps](images/isolation-bare-metal.excalidraw.png)
 
-Long ago (decades) it was common for sysadmins to just need a few bare metal servers, and combine a bunch of unrelated software services on each. Physical servers were expensive, with long lead times to obtain more. Any one server may run several or dozens of unrelated business-related processes in order to 1. reduce the number of systems each sysadmin needed to manage and 2. get better utilization out of each expensive server.
+Long ago (decades) it was common for sysadmins to just need a few bare metal servers, and combine a bunch of unrelated software services on each. Physical servers were expensive, with long lead times to obtain more. Any one server may run several or dozens of unrelated business-related processes in order to 
+1. reduce the number of systems each sysadmin needed to manage and 
+2. 2. get better utilization out of each expensive server.
 
 The problem was each of these systems was quite complex, and we had to strike a delicate balance between getting good use of these expensive servers and avoiding one app from affecting (or breaking) another. Isolation features weren't mature, so we were often afraid to touch one app on a system, in fear of breaking another. Luckily, software releases were far and few between, usually on floppy or CD, so these events, while rare, required significant planning and effort.
 
